@@ -1,0 +1,22 @@
+{
+    "eval_id": 0,
+    "eval_name": "Manual Invoice Processing",
+    "prompt": "Research an AI solution for the problem of 'manual invoice data entry in small accounting firms' and assess its feasibility using the SWOT framework. Include competition and business model.",
+    "assertions": [
+        {
+            "text": "Generated research-manual-invoice-entry.md file",
+            "passed": true,
+            "evidence": "The file exists in the project root."
+        },
+        {
+            "text": "Included SWOT analysis section",
+            "passed": true,
+            "evidence": "SWOT sections are present and populated."
+        },
+        {
+            "text": "Included Competition & Market Landscape section",
+            "passed": true,
+            "evidence": "Market landscape section is present and populated."
+        }
+    ]
+}

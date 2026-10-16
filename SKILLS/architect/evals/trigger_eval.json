@@ -1,0 +1,20 @@
+[
+  {"query": "I need to set up a new system to automate our weekly database sync. Can you help me architect this with directives and execution scripts?", "should_trigger": true},
+  {"query": "The script execution/update_user.py failed with a timeout. I need to fix it and make sure this lesson is recorded in our SOPs.", "should_trigger": true},
+  {"query": "We are getting a lot of errors in our scraping tool. We need to implement a self-annealing loop for it.", "should_trigger": true},
+  {"query": "How should I structure a new automation for customer onboarding using the 3-layer approach?", "should_trigger": true},
+  {"query": "I want to create a deterministic tool to process these csv files. I'll need a directive to explain the logic to future agents.", "should_trigger": true},
+  {"query": "Please fix the execution script for the newsletter generator and update the directive accordingly.", "should_trigger": true},
+  {"query": "I'm planning a complex multi-step integration. I need to separate the natural language instructions from the deterministic Python execution.", "should_trigger": true},
+  {"query": "Let's build a reliable system for our data pipeline. I want to use the Directive, Orchestration, and Execution layers.", "should_trigger": true},
+  {"query": "What is the result of 2 + 2?", "should_trigger": false},
+  {"query": "Tell me a joke about robots.", "should_trigger": false},
+  {"query": "Read the file index.html.", "should_trigger": false},
+  {"query": "Generate an image of a cat in a hat.", "should_trigger": false},
+  {"query": "Search the web for the weather in Tokyo.", "should_trigger": false},
+  {"query": "Can you summarize this long text file?", "should_trigger": false},
+  {"query": "Update the version in package.json to 1.0.1.", "should_trigger": false},
+  {"query": "What is the difference between async and await in JS?", "should_trigger": false},
+  {"query": "List the files in the current directory.", "should_trigger": false},
+  {"query": "How do I install npm on Windows?", "should_trigger": false}
+]

@@ -1,0 +1,17 @@
+{
+    "eval_id": 2,
+    "eval_name": "Simplified Mock Page",
+    "prompt": "Extract brands from a local HTML file containing a list of partners.",
+    "assertions": [
+        {
+            "text": "Extracted Google, Microsoft, Amazon, Meta, and Apple",
+            "passed": true,
+            "evidence": "All five brands are present in the results.json file."
+        },
+        {
+            "text": "Included source context for each brand",
+            "passed": true,
+            "evidence": "Each brand entry has a 'context' field describing its location."
+        }
+    ]
+}

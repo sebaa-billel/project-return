@@ -1,0 +1,23 @@
+{
+  "skill_name": "prompt-enhancer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "build me a freemium website of teaching polish language leveraging AI",
+      "expected_output": "A structured prompt with Objective, Requirements (freemium/AI details), UI/UX Design (vibrant colors, glassmorphism, modern fonts), and a Step-by-Step Execution Plan.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "fix the bugs in the order tracking UI",
+      "expected_output": "A structured prompt identifying the need for exploration, specific UI components to check, and verification steps.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "add a new metric to the dashboard",
+      "expected_output": "A structured prompt asking for/proposing a specific metric, location on the dashboard, and data sources.",
+      "files": []
+    }
+  ]
+}

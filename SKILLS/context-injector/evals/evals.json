@@ -1,0 +1,23 @@
+{
+  "skill_name": "context-injector",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Hey, starting a new session on the conversion recovery agent project. I've been away for a few days and need to get back up to speed. Can you remind yourself of where we are, what's done, and what's next?",
+      "expected_output": "A structured context snapshot saved to directives/context_snapshot.md and presented in chat, covering: project identity, completed milestones, current sprint/phase, key architecture decisions, live API surface, DB tables, tracked events, and next actionable items.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Okay, Sprint 2 Phase 3 is starting. Before we write any code, orient yourself — recap the full state of where we are, what the architecture looks like, any open issues, and what we're building next.",
+      "expected_output": "An injected context snapshot aligned with Sprint 2 Phase 3 kickoff. Should list completed Phase 1 and Phase 2 milestones, current in-progress Phase 3 items (traffic intelligence, trend analysis, scroll depth, financial mapping, predictions), the API surface, and key gotchas like tracker.js served dynamically.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Context window is getting big. Remind yourself of what matters for this project before we continue — the stack, any decisions we made earlier, where we are with the dashboard, and what still needs to be done.",
+      "expected_output": "A compact, dense context snapshot that does NOT re-read redundant content but surfaces the most decision-critical facts: stack (Express/TS + React + Supabase + Vercel), current dashboard state (stats, funnels, insights pages), key decisions (auto-infer funnel type, tracker.js served from backend, CORS permissive), and the current open work items.",
+      "files": []
+    }
+  ]
+}

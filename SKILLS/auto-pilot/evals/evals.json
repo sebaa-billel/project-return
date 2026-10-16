@@ -1,0 +1,17 @@
+{
+  "skill_name": "auto-pilot",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Ok, activate auto-pilot. What's the first thing we should improve in the conversion-recover-agent?",
+      "expected_output": "The model should identify a gap (e.g., price detection failure from previous conversation) and propose a specific upgrade while acknowledging the 3-layer architecture and identity.",
+      "files": ["directives/context_snapshot.md"]
+    },
+    {
+      "id": 1,
+      "prompt": "Let's start autonomous development mode. Take the lead on enhancing the analytics depth, maybe focusing on checkout behavior.",
+      "expected_output": "The model should propose a specific enhancement (e.g., detailed checkout field analysis) and outline the aesthetic and architectural plan.",
+      "files": ["directives/context_snapshot.md", "server.ts"]
+    }
+  ]
+}

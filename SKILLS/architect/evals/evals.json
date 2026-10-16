@@ -1,0 +1,41 @@
+{
+  "skill_name": "architect",
+  "evals": [
+    {
+      "id": 1,
+      "name": "init-3layer-task",
+      "prompt": "We need to automate the generation of a weekly summary report from our database. Use the 3-layer architecture to set this up: create a directive detailing the SOP and an execution script to fetch and format the data.",
+      "expected_output": "Directive created in directives/ and Python script created in execution/.",
+      "assertions": [
+        {
+          "text": "File exists in directives/ directory",
+          "id": "has-directive"
+        },
+        {
+          "text": "File exists in execution/ directory",
+          "id": "has-execution-script"
+        },
+        {
+          "text": "Directive includes Goal, Inputs, and Tools sections",
+          "id": "directive-quality"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "repair-and-anneal",
+      "prompt": "The script 'execution/process_orders.py' is crashing due to a missing 'status' field in some JSON records. Fix the script to handle missing fields and then update 'directives/order_processing.md' to include this edge case validation.",
+      "expected_output": "Script handles errors; Directive documented the edge case.",
+      "assertions": [
+        {
+          "text": "Execution script handles the missing field case",
+          "id": "logic-fixed"
+        },
+        {
+          "text": "Directive mentions the 'status' field edge case",
+          "id": "directive-annealed"
+        }
+      ]
+    }
+  ]
+}

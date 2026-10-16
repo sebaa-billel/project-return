@@ -1,0 +1,19 @@
+{
+    "skill_name": "research-ai-solution",
+    "evals": [
+        {
+            "id": 0,
+            "name": "Manual Invoice Processing",
+            "prompt": "Research an AI solution for the problem of 'manual invoice data entry in small accounting firms' and assess its feasibility using the SWOT framework. Include competition and business model.",
+            "expected_output": "A research-manual-invoice-entry.md file with SWOT analysis, competition list, and business model recommendations.",
+            "files": []
+        },
+        {
+            "id": 1,
+            "name": "E-commerce Customer Churn",
+            "prompt": "Evaluate the possibility of developing an AI solution for 'reducing customer churn in mid-sized fashion e-commerce stores'. Provide the market competition and SWOT assessment.",
+            "expected_output": "A research-e-commerce-churn.md file detailing competitors, SWOT, and ease of implementation.",
+            "files": []
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "skill_name": "brand-extractor",
+  "evals": [
+    {
+      "id": 0,
+      "name": "E-commerce Site (Clothing)",
+      "prompt": "Extract all brand names from https://www.asos.com/men/a-to-z-of-brands/ and provide them as a JSON list with source context.",
+      "expected_output": "A JSON list containing brands like 'Adidas', 'Nike', 'ASOS Design', etc., with contextual notes.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "Tech Directory",
+      "prompt": "List the brands featured on https://www.techradar.com/news/computing/pc/best-laptop-brands-1317511 and include where they were mentioned.",
+      "expected_output": "A list of laptop brands (e.g., Apple, HP, Dell) extracted from the article content.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "Simplified Mock Page",
+      "prompt": "Extract brands from a local HTML file containing a list of partners.",
+      "expected_output": "Brand names extracted from the local file content.",
+      "files": ["test_partners.html"]
+    }
+  ]
+}

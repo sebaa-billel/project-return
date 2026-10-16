@@ -1,0 +1,27 @@
+[
+    {
+        "brand": "Google",
+        "context": "Featured in main section with logo",
+        "url": "/logos/google.png"
+    },
+    {
+        "brand": "Microsoft",
+        "context": "Featured in main section with logo",
+        "url": "/logos/microsoft.png"
+    },
+    {
+        "brand": "Amazon",
+        "context": "Listed in footer",
+        "url": null
+    },
+    {
+        "brand": "Meta",
+        "context": "Listed in footer",
+        "url": null
+    },
+    {
+        "brand": "Apple",
+        "context": "Listed in footer",
+        "url": null
+    }
+]
